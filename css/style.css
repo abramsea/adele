@@ -152,7 +152,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
-    margin-left: 170px;
+    margin-left: 120px;
 }
 
 .digit_card_top {
@@ -184,81 +184,18 @@ body {
 
 
 
-
-/*
-
-
-
-@media screen and (max-width: 1250px) {
-    .digit_card {
-        margin-left: 70px;
-    }
-}
-
-
 @media screen and (max-width: 1020px) {
     .main_order {
-        padding-top: 370px;
+        background: none;
     }
 
-}
-
-
-@media screen and (max-width: 900px) {
-
-    .digits_cards {
-        margin-left: 20%;
-        margin-top: -200px;
+.digits_cards {
+    margin-left: 200px;
+    margin-top: -220px;
     }
 
-    .digit_card {
-        margin-left: 50px;
-    }
-}
-
-
-@media screen and (max-width: 700px) {
-    .order_text {
-        width: 100%;
+.digit_card {
+    margin-left: 70px;
     }
 
-    .main_order {
-        margin-top: 100px;
-        padding-top: 250px;
-    }
-
-    .main_order h2 {
-        font-size: 40px;
-    }
-    .main_order h4 {
-        font-size: 18px;
-    }
-
-    .line {
-        height: 55px;
-        margin-top: 10px;
-    }
-
-    .order_buttons {
-        flex-direction: column;
-    }
-
-    .digit_card_top {
-        font-size: 40px;
-        margin-top: 20px;
-    }
-
-    .quantity {
-        padding-top: 20px;
-    }
-
-}
-
-
-
-@media screen and (max-width: 340px) {
-    .main_order {
-        margin-top: 50px;
-        padding-top: 160px;
-    }
 }
