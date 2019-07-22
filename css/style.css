@@ -80,6 +80,10 @@ body {
     margin: 0 auto;
 }
 
+
+
+
+
 .welcome {
     display: flex;
     flex-direction: row;
@@ -130,6 +134,14 @@ body {
 .watch_button a {
     color: #333740;
 }
+
+
+
+
+
+
+
+
 
 .main_digits img {
     max-width: 100%;
@@ -184,18 +196,154 @@ body {
 
 
 
+
+
+
+
+
+
+.features {
+    color: #333740;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.top_central_features {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.left_central_feature {
+    padding: 8px 22px;
+    border-right: 1px solid #18a3dd;
+}
+
+.left_central_feature h2 {
+    font-weight: 600;
+}
+
+.right_central_feature {
+    padding: 8px 21px;
+
+}
+
+.right_central_feature h2 {
+    font-weight: 200;
+}
+
+
+.bottom_central_feature {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.bottom_central_feature h3 {
+    font-weight: 300;
+}
+
+
+.side_features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+    font-family: 'Lato', sans-serif;
+}
+
+.side_features h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.side_features p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.left_features {
+    margin: 30px 90px 90px 20px;
+}
+
+.left_features h3 {
+    border-right: 5px solid #18a3dd;
+    margin-bottom: 30px;
+}
+
+.left_features p {
+    text-align: right;
+}
+
+.left_top_feature {
+    margin: 30px 0 75px 0; 
+}
+
+.right_features {
+    margin: 30px 20px 90px 90px;
+}
+
+.right_features h3 {
+    border-left: 5px solid #18a3dd;
+    margin-bottom: 30px;
+}
+
+.right_features p {
+    text-align: left;
+}
+
+.right_top_feature {
+    margin: 30px 0 75px 0; 
+}
+
+.features_image img {
+    min-width: 90%;
+}
+
+
+
+
+
+.results {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.slider_container {
+    text-align: center;
+}
+
+.slider {
+    margin-top: 75px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1020px) {
     .main_order {
         background: none;
     }
 
-.digits_cards {
-    margin-left: 200px;
-    margin-top: -220px;
+    .digits_cards {
+        margin-left: 200px;
+        margin-top: -220px;
     }
 
-.digit_card {
-    margin-left: 70px;
+    .digit_card {
+        margin-left: 70px;
+    }
+
+    .side_features h3 {
+        font-size: 16px;
+    }
+    
+    .side_features p {
+        font-size: 13px;
     }
 
 }
